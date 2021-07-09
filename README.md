@@ -1,8 +1,9 @@
 # api-server-SQL
 
+- refactoring api-server that used mongodb database, then here we used postgres-SQL database without any changing on the functionality.
 
-**Author: Ahmad Abu Osbeh**
-<br>
+  **Author: Ahmad Abu Osbeh**
+  <br>
 
 - tests report
 - back-end
@@ -28,9 +29,9 @@ color: 'yelow',
 ```
 
 **example hit :**
-[get food data](https://ahmadosbeh-api-server.herokuapp.com/api/v1/food)
+[get food data](https://ahmadosbeh-api-server-sql.herokuapp.com/api/v1/food)
 
-- https://ahmadosbeh-api-server.herokuapp.com/api/v1/food
+- https://ahmadosbeh-api-server-sql.herokuapp.com/api/v1/food
 
   2- clothes
 
@@ -46,16 +47,16 @@ color: 'white',
 ```
 
 **example hit :**
-[get food data](https://ahmadosbeh-api-server.herokuapp.com/api/v1/clothes)
+[get food data](https://ahmadosbeh-api-server-sql.herokuapp.com/api/v1/clothes)
 
-- https://ahmadosbeh-api-server.herokuapp.com/api/v1/clothes
+- https://ahmadosbeh-api-server-sql.herokuapp.com/api/v1/clothes
 
 - Returns : json with requested data
 
 ```
 
 {
-"domain": "https://ahmadosbeh-api-server.herokuapp.com/",
+"domain": "https://ahmadosbeh-api-server-sql.herokuapp.com/",
 "status": "running",
 "port": 3003
 }
@@ -64,7 +65,7 @@ color: 'white',
 
 # PR link
 
-[PR link](https://github.com/Ahmad-AbuOsbeh/api-server-SQL/pull/1)
+[PR link](https://github.com/Ahmad-AbuOsbeh/api-server/pull/1)
 
 **Tests**
 
@@ -76,4 +77,4 @@ color: 'white',
 
 <br>
 
-![UML-api-server-SQL](images/api-server-SQL.jpg)
+![UML-api-server-sql](images/UML-api-server-sql.jpg)
