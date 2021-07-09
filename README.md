@@ -65,7 +65,9 @@ color: 'white',
 
 # PR link
 
-[PR link](https://github.com/Ahmad-AbuOsbeh/api-server/pull/1)
+[PR link](https://github.com/Ahmad-AbuOsbeh/api-server-SQL/pull/1)
+
+- https://github.com/Ahmad-AbuOsbeh/api-server-SQL/pull/1
 
 **Tests**
 
